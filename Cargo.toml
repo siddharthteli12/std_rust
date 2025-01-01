@@ -1,0 +1,11 @@
+[package]
+name = "std_rust"
+version = "0.1.0"
+edition = "2021"
+
+
+[[bin]]
+name = "unsafe_cell"
+path = "src/bin/cell/unsafe_cell.rs"
+
+[dependencies]
